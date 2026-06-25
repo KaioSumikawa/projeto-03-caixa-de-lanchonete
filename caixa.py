@@ -9,4 +9,8 @@ while True:
     if preco == 0:
         print('encerrando caixa')
         break
-    
+
+    total += preco
+    qtd_itens += 1
+    print(f'total atual: {total:.2f}')
+
